@@ -1,0 +1,65 @@
+body{
+    background-image: url("https://68.media.tumblr.com/887ed102eba8b2f59ecddabd73d3c05c/tumblr_ok96baWxy61vsjcxvo1_500.gif");
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    font-family: "Brush Script MT", cursive;
+	font-size: 100px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+    line-height: 26.4px;
+    text-align: center;
+    margin-top: 130px;
+    color: gold
+}
+
+h3{
+    font-family: "rush Script Std", "Brush Script MT", cursive;
+    text-align: center;
+    font-size: 25pt;
+}
+
+button {
+	position: relative;
+    color: black;
+    text-decoration: none;
+    background-color:goldenrod;
+    font-family: "rush Script Std", "Brush Script MT", cursive;
+    font-weight: 700;
+    font-size: 40pt;
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 60px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 9px 0px gold, 0px 9px 25px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 9px 0px gold, 0px 9px 25px rgba(0,0,0,.7);
+    box-shadow: 0px 9px 0px gold, 0px 9px 25px rgba(0,0,0,.7);
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    outline: none !important;
+	
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-o-transition: all .1s ease;
+    transition: all .1s ease;
+}
+
+button:active {
+    -webkit-box-shadow: 0px 3px 0px gold, 0px 3px 6px rgba(0,0,0,.9);
+    -moz-box-shadow: 0px 3px 0px gold, 0px 3px 6px rgba(0,0,0,.9);
+    box-shadow: 0px 3px 0px gold, 0px 3px 6px rgba(0,0,0,.9);
+    position: relative;
+    top: 6px;
+    outline: none !important;
+}
+}
